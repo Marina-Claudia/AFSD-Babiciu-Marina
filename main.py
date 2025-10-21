@@ -1,6 +1,5 @@
 #if
 from conda_build.inspect_pkg import print_linkages
-
 numar = 0
 if numar > 0:
        print("numarul este pozitiv")
@@ -22,13 +21,10 @@ if nr%2==0:
 else:
        print("nr este impar")
 # structuri repetitive while si for
-
-# while: nu stim nr de pasi
-
+# 1) while: nu stim nr de pasi
 while(nr > 0):
        nr -= 1
        print(nr)
-
 #cate cifre are un numar
 numar= 9584739211100293
 numar_cifre = 0
@@ -36,8 +32,7 @@ while numar > 0:
        numar = numar // 10
        numar_cifre += 1
 print (numar_cifre)
-
-#range (start, stop, pas) -genereaza secventa de nr pentru for
+# 2) for: range (start, stop, pas) -genereaza secventa de nr pentru for
 for i in range(0, 100, 2):
        print(i, end=" ")
 print()
@@ -68,9 +63,8 @@ if text1:
        print("sirul este plin")
 else:
        print("sirul este gol")
-
 print("======================")
-
+#numararea vocalelor dintr-un sir de caractere
 text= "Azi este o zi frumoasa"
 vocale= "aeiouAEIOU"
 nr_vocale = 0
