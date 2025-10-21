@@ -68,4 +68,15 @@ if text1:
        print("sirul este plin")
 else:
        print("sirul este gol")
-       
+
+print("======================")
+
+text= "Azi este o zi frumoasa"
+vocale= "aeiouAEIOU"
+nr_vocale = 0
+for index in range (len(text)):
+       print(text[index])
+for index in range (len(text)):
+       if text[index] in vocale:
+              nr_vocale += 1
+print(nr_vocale)
