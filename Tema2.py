@@ -124,4 +124,3 @@ print(lista_note)
 suma_notelor = sum(lista_note)
 media_aritmetica_note = suma_notelor / len(lista_note)
 print(media_aritmetica_note)
-
