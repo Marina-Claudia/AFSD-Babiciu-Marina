@@ -73,7 +73,7 @@ for caracter in text:
        if caracter in vocale:
               nr_vocale += 1
 print(nr_vocale)
-#28.10.2025
+                    #28.10.2025
 # ~LISTE~
 lista_de_numere = [10, 20, 30, 40, 50]
 lista_diversa = [1, "text", 3.14, True, [1, 2, 3]]
