@@ -166,4 +166,3 @@ index= 0
 while lista_de_numere[index] != "stop":
        print(lista_de_numere[index])
        index += 1
-#fnjdskfnsjd
