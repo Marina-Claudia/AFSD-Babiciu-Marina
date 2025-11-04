@@ -117,7 +117,7 @@ lista_note = []
 if note:
     for element in note:
         if element >= 5:
-            lista_note = [element]
+            lista_note = lista_note + [element]
 print(lista_note)
 suma_notelor = sum(lista_note)
 media_aritmetica_note = suma_notelor / len(lista_note)
