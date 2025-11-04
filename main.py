@@ -1,6 +1,5 @@
 #21.10.2025
 #if
-from conda_build.inspect_pkg import print_linkages
 numar = 0
 if numar > 0:
        print("numarul este pozitiv")
@@ -166,4 +165,3 @@ index= 0
 while lista_de_numere[index] != "stop":
        print(lista_de_numere[index])
        index += 1
-#fnjdskfnsjd

@@ -113,13 +113,11 @@ print(numar_elevi_promovati, "elevi au promovat")
 print(numar_elevi_respinsi, "sunt respinsi")
 #C11.
 note = [9, 7, 10, 4, 8]
-lista_note = note
-index = 0
+lista_note = []
 if note:
     for element in note:
         if element >= 5:
-            lista_note[index] = element
-            index += 1
+            lista_note = lista_note + [element]
 print(lista_note)
 suma_notelor = sum(lista_note)
 media_aritmetica_note = suma_notelor / len(lista_note)
