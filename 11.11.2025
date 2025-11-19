@@ -14,3 +14,23 @@ def bubble_sort(lista):
 numere = [64, 34, 25, 12, 22, 11, 90]
 numere_sortate = bubble_sort(numere)
 print("Lista sortata este:", numere_sortate)
+#18.11.2025
+def my_function(sir1, sir2: str) -> str:
+    x = sir1[0]+ sir2[1:] + " " + sir2[0] + sir1[1:]
+    return x
+a = "aa"
+b = "bb"
+print(my_function(a,b))
+#Laborator 5, 1)
+def suma_cifrelor(n: int) -> str:
+    numar = n
+    suma = 0
+    while numar > 0:
+        suma += numar % 10
+        numar //= 10
+    return f"Suma cifrelor lui {n} este {suma}"
+
+print(suma_cifrelor(40392))
+
+text = 'abcd'
+text.
