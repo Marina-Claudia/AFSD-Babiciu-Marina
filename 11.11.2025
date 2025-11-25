@@ -9,8 +9,8 @@ def bubble_sort(lista):
                 lista[i], lista[i + 1] = lista[i + 1], lista[i]
                 interschimbat = True
             i += 1
-    return lista
+        return lista
 #Exemplu de utilizare
 numere = [64, 34, 25, 12, 22, 11, 90]
 numere_sortate = bubble_sort(numere)
-print("Lista sortata este:", numere_sortate)9
+print("Lista sortata este:", numere_sortate)
