@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Reprezentarea tablei: matrice 3x3
 def afiseaza(tabla):
     print()
@@ -73,4 +74,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
